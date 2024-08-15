@@ -2,6 +2,7 @@ import './Contact.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Navbar from '../../Component/Navbar/Navbar.js';
+import Footer from '../../Component/Footer/Footer.js';
 
 
 export default function Contact() {
@@ -34,20 +35,24 @@ export default function Contact() {
         <>
 <Navbar/>
             <div className='contact'>
-                <h1>GET IN TOUCH</h1>
+                <h1 className='get'>GET IN TOUCH</h1>
                 <div>
                     <div>
 
                     </div>
                 </div>
             </div>
-
+            {/* <h2 style={{textAlign:'center'}}>Contact Us</h2> */}
             <div className='form'>
+                
                 <div>
+                   
                     <form >
+                    
                         Name: <br></br>
                         <input type='text' className='form-div' required onChange={(e) => {
                             setName(e.target.value)
+
                         }} />
 
                         <br></br>
@@ -89,7 +94,7 @@ export default function Contact() {
             </div>
 
 
-
+<Footer/>
 
         </>
 

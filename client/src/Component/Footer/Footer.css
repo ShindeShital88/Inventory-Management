@@ -1,0 +1,30 @@
+.footer{
+    height:30vw;
+    width:100vw;
+    border: 1px solid;
+    background-color: rgb(30, 29, 29);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.links{
+    margin-left:30px;
+}
+.foot-link{
+    color: white;
+    margin-top:40px;
+    
+}
+.foot-logo{
+    height: 100px;
+    width: 200px;
+    margin-top:10px;
+}
+.foot-link2{
+    color: white;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}

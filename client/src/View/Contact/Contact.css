@@ -10,6 +10,9 @@
     text-align: center;
     padding-top: 30px;
 }
+.get{
+  margin-top: 160px;
+}
 .form{
   display:flex;
   justify-content:space-evenly;

@@ -12,5 +12,8 @@
     height:9vw;
     width: 100vw;
     border: 2px solid;
-
+   
+}
+.home-para{
+    background-color:linear-gradient(90deg, #00AFFF91 0%, #22522C 75%);
 }

@@ -5,14 +5,19 @@
     background-color: aliceblue;
 }
 .home{
-    color: linear-gradient(90deg, #00AFFF91 0%, #22522C 75%);;
+    color: linear-gradient(90deg, #00AFFF91 0%, #22522C 75%);
     text-decoration: none;
     font: inherit;
     vertical-align: baseline;
     font-family: inherit;
     font-size:larger;
     font-weight: 500;
-    margin-left: 120px;
+    margin-left:50px;
    
 
+}
+.logo{
+    height: 60px;
+    width: 160px;
+    margin-left: 40px;
 }

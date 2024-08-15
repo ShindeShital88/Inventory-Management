@@ -1,0 +1,25 @@
+.ragister{
+    height:80vh;
+    width: 50vw;
+    /* border: 2px solid; */
+    margin-left:25vw;
+    box-shadow: 1px 1px 10px 1px rgb(144, 141, 141);
+    margin-top:20px;
+    border-radius: 30px 0px 30px 0px;
+}
+.input{
+    margin-left:160px;
+    padding: 10px;
+    margin-top: 40px;
+    width: 300px;
+    border-radius:10px;
+}
+.input1{
+    margin-left:210px;
+    padding: 10px;
+    margin-top: 40px;
+    width: 200px;
+    border-radius:10px;
+   background-color: skyblue;
+   color: white;
+}

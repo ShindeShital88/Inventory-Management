@@ -52,3 +52,29 @@ app.get('/Contacts', async (req, res) => {
         data: dondata
     })
 })
+
+
+
+app.post('/ragister',(req, res)=>{
+    const {Name, Email, Mobile} = req.body
+    try{
+        const allcontact = Contact.create({
+            "Name":Name,
+           
+            "Email":Email,
+           "Mobile":Mobile,
+           "Address":Address
+        })
+        res.json({
+            success: true,
+            data: allcontact,
+            msg: "show all data"
+        })
+    }
+    catch(error){
+        res.json({
+                success: false,
+                msg: error.message
+        })
+    }
+})
