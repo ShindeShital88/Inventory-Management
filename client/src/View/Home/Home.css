@@ -1,0 +1,16 @@
+.main-home{
+    background-image:url("./image.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    
+}
+.home-text{
+    margin-top: 40px;
+}
+.home-div{
+    height:9vw;
+    width: 100vw;
+    border: 2px solid;
+
+}

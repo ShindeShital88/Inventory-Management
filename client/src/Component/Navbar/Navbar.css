@@ -1,0 +1,18 @@
+.nav-class{
+    height: 80px;
+    width: 100vw;
+    /* border: 2px solid; */
+    background-color: aliceblue;
+}
+.home{
+    color: linear-gradient(90deg, #00AFFF91 0%, #22522C 75%);;
+    text-decoration: none;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size:larger;
+    font-weight: 500;
+    margin-left: 120px;
+   
+
+}
