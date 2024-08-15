@@ -6,6 +6,7 @@ import Home from './View/Home/Home.js'
 import Contact from './View/Contact/Contact.js'
 import Ragister from './View/Ragister/Ragister.js';
 import Software from './View/Software/Software.js';
+import About from './View/About/Aboutus.js'
 const routes =createBrowserRouter([
 
 
@@ -24,7 +25,11 @@ const routes =createBrowserRouter([
 {
   path:'/software',
   element:<Software/>
-}
+},
+{
+path:'/About',
+element:<About/>
+},
 
 
 ])

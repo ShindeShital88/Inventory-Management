@@ -18,7 +18,7 @@ return(
           <a class="nav-link active" aria-current="page" className='home' href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" className='home' href="#">AboutUs</a>
+          <a class="nav-link" className='home' href="/About">AboutUs</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" className='home' href="/Software">Online Billing Software</a>
