@@ -24,10 +24,16 @@ return(
           <a class="nav-link" className='home' href="/Software">Online Billing Software</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" className='home' href="ragister">Register</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" className='home' href="/Contact">ContactUs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" className='home' href="">SignUp</a>
+          <a class="nav-link" className='home' href="/sign">SignUp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" className='home' href="/signin">Signin</a>
         </li>
         {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" className='home' href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

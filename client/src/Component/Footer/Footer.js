@@ -15,6 +15,8 @@ export default function Footer(){
    <ul>Billing with Barcode Scanner</ul>
    <ul>GST Billing with Thermal Receipt and Barcode Rolls</ul>
    <ul>Home</ul>
+   <ul>Aboutus</ul>
+  
    <a href='https://www.instagram.com/shitalshinde8864?utm_source=qr&igsh=MjJkd2l4ZDNtcnU0"'><img className='insta' src={insta} /></a>
               <a href='https://www.linkedin.com/in/shinde-shital-4bb8a9286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img className='insta' src={linked} /></a>
               <a href=''><img className='insta' src={github} /></a>

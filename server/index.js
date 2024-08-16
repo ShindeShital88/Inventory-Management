@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import Contact from './Model/Contact.js';
+import Sign from './Model/Sign.js';
 
 
 
@@ -77,4 +78,77 @@ app.post('/ragister',(req, res)=>{
                 msg: error.message
         })
     }
+})
+
+
+
+
+app.post('/Sign',(req, res)=>{
+    const {UserName, EmailID , Password , Address}= req.body
+    try{
+        const Data = Sign.create({
+            "UserName":UserName,
+            "EmailID":EmailID,
+            "Password":Password,
+            "Address":Address
+        })
+        res.json({
+            success:true,
+            data:Data,
+            msg:" data fetch successfully"
+        })
+    }
+    catch(error){
+        res.json({
+            successfalse,
+            msg:error.message
+        })
+    }
+
+   })
+   app.get('/Sign/:_id', async(req, res)=>{
+    const {_id} = req.params;
+    const databyid = await Sign.findOne({_id:_id});
+    res.json({
+        success:true,
+        id :_id,
+        data: databyid
+        // msg:`data fetch successfully`
+    })
+ })
+ app.get('/Signs',async(req, res)=>{
+    const Alldata = await Sign.find();
+    res.json({
+    data:Alldata
+    })
+   
+ })
+
+
+ 
+app.post('/login',(req, res)=>{
+    const { Emailaddress, Password} =req.body
+    try{
+        const logdata=Sign.create({
+           " Emailaddress":Emailaddress,
+          "  Password":Password
+        })
+        res.json({
+            success:true,
+            data:logdata,
+            msg:"login successfully"
+        })
+    }catch(error){
+        res.json({
+            success:false,
+            msg:error.msg
+        })
+    }
+})
+
+app.get('/logins', async(req , res)=>{
+    const logs = await Sign.find();
+    res.json({
+        data:logs
+    })
 })

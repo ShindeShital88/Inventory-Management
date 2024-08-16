@@ -24,6 +24,7 @@ export default function Software(){
     <p style={{fontSize:20, textAlign:'center', marginTop:10, }}>In the offline billing software you have to download the software after that you access it. But in the cloud billing software not need to download the software. Because you can access it from any device PC, laptop, tablet even from your phone. All you need to remember your login ID and password. </p>
     <p style={{fontSize:20, textAlign:'center'}}>Even you can create an invoice with your phone by just scanning the barcode of the produce. The whole date is store into the online server. Online invoice software is quick, easy as well as completely safe software. </p>
 </div>
+<br></br>
 <Footer/>
 </>
 

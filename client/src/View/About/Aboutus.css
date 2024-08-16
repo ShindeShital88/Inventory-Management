@@ -22,4 +22,8 @@
     /* border: 2px solid; */
     margin-top: 30px;
     box-shadow: 1px 1px 10px 1px gray;
+    transition:2s;
+}
+.review-div:hover{
+    transform: scale(0.9);
 }

@@ -12,8 +12,57 @@
     height:9vw;
     width: 100vw;
     border: 2px solid;
+    background-color:skyblue;
+    color: white;
+    margin-top: 40px;
    
 }
 .home-para{
-    background-color:linear-gradient(90deg, #00AFFF91 0%, #22522C 75%);
+  text-align: center;
+  margin-top: 30px;
+}
+.feature{
+    height:60vh;
+    width: 100vw;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 20px;
+    background-color:rgb(247, 246, 246);
+}
+.mobile{
+    height: 200px;
+    width: 100px;
+    margin: 10px;
+}
+.mobile1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+/* .display{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+} */
+.order{
+    /* border: 1px solid; */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.main-image{
+    /* border: 2px solid; */
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.logos{
+    height: 300px;
+    width: 300px;
+    transition: 2s;
+}
+.logos:hover{
+    transform: scale(0.9);
 }
